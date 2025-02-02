@@ -29,11 +29,15 @@ Medical MNIST – 60,000 grayscale images across six medical imaging classes.
 COVID-19 Radiography Dataset – 40,000 X-ray images across four classes: Normal, COVID, Viral Pneumonia, and Lung Opacity.
 
 ## Key Results & Findings
-Model	Medical MNIST Accuracy	COVID-19 Radiography Accuracy
-SVM + HoG	99.5%	88.25%
-Simple CNN	99.86%	92.76%
-Bigger CNN	98.29%	57.40%
-ResNet-50 (Transfer Learning)	99.96%	97.42%
+
+Model	                               | Medical MNIST Accuracy |	COVID-19 Radiography Accuracy |
+-----------------------------------------------------------------------------------------------
+SVM + HoG	                           |          99.5%	        |            88.25%             |
+Simple CNN                           |          99.86%	      |            92.76%             |
+Bigger CNN                           |	        98.29%	      |            57.40%             |
+ResNet-50 (Transfer Learning)        |	        99.96%	      |            97.42%             |
+
+
 Traditional methods performed well on simpler datasets but struggled with complex medical images.
 CNNs provided significant improvements, but deeper architectures required more tuning.
 ResNet-50 with fine-tuning achieved the highest accuracy, demonstrating the power of transfer learning in medical diagnostics.
