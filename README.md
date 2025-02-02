@@ -44,14 +44,15 @@ Unfrozen the last 40 layers for feature adaptation, optimized with Categorical C
 
 
 ## Challenges & Future Work
-🚀 Challenges
-Class imbalance – Mitigated using weighted loss functions and data augmentation.
-Overfitting – Addressed with L2 regularization, dropout layers, and early stopping.
-Computational cost – Optimized using pre-trained models and transfer learning.
-🔬 Future Work
-Extend to other medical imaging modalities (MRI, CT scans).
-Implement Vision Transformers (ViTs) for improved feature extraction.
-Develop explainable AI (XAI) methods to enhance interpretability for clinicians.
+### 🚀 Challenges
+- Class imbalance – Mitigated using weighted loss functions and data augmentation.
+- Overfitting – Addressed with L2 regularization, dropout layers, and early stopping.
+- Computational cost – Optimized using pre-trained models and transfer learning.
+
+### 🔬 Future Work
+- Extend to other medical imaging modalities (MRI, CT scans).
+- Implement Vision Transformers (ViTs) for improved feature extraction.
+- Develop explainable AI (XAI) methods to enhance interpretability for clinicians.
 
 
 ## References
