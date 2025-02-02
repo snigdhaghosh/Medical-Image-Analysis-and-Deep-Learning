@@ -24,8 +24,21 @@ Fine-tuned ResNet-50, a 50-layer residual network, pre-trained on ImageNet.
 Unfrozen the last 40 layers for feature adaptation, optimized with Categorical Cross-Entropy and ReduceLROnPlateau.
 
 ## Datasets
-- Medical MNIST – 60,000 grayscale images across six medical imaging classes.
-- COVID-19 Radiography Dataset – 40,000 X-ray images across four classes: Normal, COVID, Viral Pneumonia, and Lung Opacity.
+- **Medical MNIST** – 60,000 grayscale images across six medical imaging classes.
+- **COVID-19 Radiography Dataset** – 40,000 X-ray images across four classes: Normal, COVID, Viral Pneumonia, and Lung Opacity.
+
+### Technical Libraries Used  
+
+This project leverages a combination of machine learning, deep learning, and data processing libraries, including:  
+
+- **TensorFlow / Keras** – For building and training CNNs and ResNet-50 transfer learning models.  
+- **Scikit-learn** – Used for traditional machine learning models like SVM, Decision Trees, and hyperparameter tuning (GridSearchCV).  
+- **OpenCV** – For image preprocessing, feature extraction (HoG, SIFT), and augmentation.  
+- **NumPy / Pandas** – For efficient numerical computations and dataset handling.  
+- **Matplotlib / Seaborn** – For visualizing model performance, confusion matrices, and feature maps.  
+- **Torchvision** – Used for ResNet-50 model implementation and transfer learning.  
+
+These libraries collectively enabled efficient model development, evaluation, and visualization for medical image diagnostics.
 
 ## Key Results & Findings
 
