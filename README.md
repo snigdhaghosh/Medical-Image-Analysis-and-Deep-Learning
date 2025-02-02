@@ -30,12 +30,12 @@ COVID-19 Radiography Dataset – 40,000 X-ray images across four classes: Normal
 
 ## Key Results & Findings
 
-Model	                               | Medical MNIST Accuracy |	COVID-19 Radiography Accuracy |
+            Model	                     | Medical MNIST Accuracy |	COVID-19 Radiography Accuracy |
 -----------------------------------------------------------------------------------------------
-SVM + HoG	                           |          99.5%	        |            88.25%             |
-Simple CNN                           |          99.86%	      |            92.76%             |
-Bigger CNN                           |	        98.29%	      |            57.40%             |
-ResNet-50 (Transfer Learning)        |	        99.96%	      |            97.42%             |
+          SVM + HoG	                   |          99.5%	        |            88.25%             |
+          Simple CNN                   |          99.86%	      |            92.76%             |
+          Bigger CNN                   |	        98.29%	      |            57.40%             |
+    ResNet-50 (Transfer Learning)      |	        99.96%	      |            97.42%             |
 
 
 Traditional methods performed well on simpler datasets but struggled with complex medical images.
