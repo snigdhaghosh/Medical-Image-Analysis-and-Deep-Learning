@@ -10,16 +10,19 @@ This project explores the application of computer vision techniques to improve m
 
 ## Project Structure
 1️⃣ **Traditional Machine Learning Approaches**
+
 Feature extraction using Histogram of Oriented Gradients (HoG) and Scale-Invariant Feature Transform (SIFT).
 Classification using Support Vector Machines (SVMs) and Decision Trees with Bagging & Boosting Ensembles.
 Bag of Words (BoW) model for feature representation.
 
 2️⃣ **Deep Learning Approaches (CNNs)**
+
 Designed two CNN architectures:
 - Simple (Base) Model – Lightweight and efficient, trained with Adam & Nadam optimizers.
 - Bigger (Advanced) Model – A deeper architecture with L2 regularization and dropout layers for improved generalization.
 
 3️⃣ **Transfer Learning with ResNet-50**
+
 Fine-tuned ResNet-50, a 50-layer residual network, pre-trained on ImageNet.
 Unfrozen the last 40 layers for feature adaptation, optimized with Categorical Cross-Entropy and ReduceLROnPlateau.
 
